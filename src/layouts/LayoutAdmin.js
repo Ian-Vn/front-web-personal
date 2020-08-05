@@ -8,19 +8,16 @@ export const LayoutAdmin = ({ routes }) => {
   const { Header, Footer, Content } = Layout;
 
   return (
-    <Layout>
-      <h2> Menu Sidebar</h2>
-      <Layout>
-        <Header> Header... </Header>
-        <Content>
-          <Switch>
-            {routes.map((route, index) => (
-              <Route key={index} {...route} />
-            ))}
-          </Switch>
-        </Content>
-        <Footer> Footer </Footer>
-      </Layout>
+    <Layout className="layout-admin">
+      <Header className="layout-admin__header"> </Header>
+      <Content className="layout-admin__content">
+        <Switch>
+          {routes.map((route, index) => (
+            <Route key={index} {...route} />
+          ))}
+        </Switch>
+      </Content>
+      <Footer className="layout-admin__footer"> Footer </Footer>
     </Layout>
   );
 };
