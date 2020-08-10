@@ -9,16 +9,15 @@
       left: 0;
       width: 100%;
       display: flex;
-      padding: 0;
-      height: 65px;
+      padding: 0 !important;
     }
   
     &__content {
-      min-height: calc(100vh - 65px);
+      height: calc(100vh - 70px);
       padding: 90px 25px 25px 25px;
     }
   
     &__footer {
       padding: 20px;
     }
-  }
+}

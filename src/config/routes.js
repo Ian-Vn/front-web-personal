@@ -2,7 +2,7 @@ import { LayoutAdmin } from "../layouts/LayoutAdmin";
 
 // Admin Pages
 import { Admin } from "../pages/Admin/Admin"; // AdminHome
-import { SignIn } from "../pages/Admin/SignIn";
+import { SignIn } from "../pages/Admin/SignIn/SignIn";
 import { LayoutBasic } from "../layouts/LayoutBasic";
 
 // Pages
